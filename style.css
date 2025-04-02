@@ -1,0 +1,78 @@
+body{
+    background: black;
+    font-family: 'Courier New';    
+    color: white;
+    margin: 8px auto;
+    padding-top: 100px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+.container{
+    width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+
+input[type="text"]{
+    padding: 10px;
+    margin: 10px  auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background: none;
+    width: 274px;
+    color: white;
+}
+
+input[type="text"]::placeholder{
+    color: lightgrey;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+.more{
+    width: 294px;
+    margin: 15px auto;
+}
+
+.more a{
+    text-decoration: none;
+}
+
+#add{
+    background-color: #4caf50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#remove{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-left: 75px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
